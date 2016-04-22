@@ -26,4 +26,4 @@ elif [[ $SSL == "no" ]]; then
  fi
 
 # run madsonic with flags to set config
-/opt/madsonic/madsonic.sh --home=/config --host=0.0.0.0 ${port} --context-path=${CONTEXT_PATH} --default-music-folder=/media --default-podcast-folder=/config/media/podcast --default-playlist-import-folder=/config/playlists/import --default-playlist-export-folder=/config/playlists/export --default-playlist-backup-folder=/config/playlists/backup
+/opt/madsonic/madsonic.sh --home=/config --host=0.0.0.0 --port=${port} --context-path=${CONTEXT_PATH} --default-music-folder=/media --default-podcast-folder=/config/media/podcast --default-playlist-import-folder=/config/playlists/import --default-playlist-export-folder=/config/playlists/export --default-playlist-backup-folder=/config/playlists/backup
